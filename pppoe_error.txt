@@ -1,0 +1,304 @@
+600	PENDING	An operation is pending.	
+601	ERROR_INVALID_PORT_HANDLE	The port handle supplied is not valid.	
+602	ERROR_PORT_ALREADY_OPEN	The specified port is already open.	
+603	ERROR_BUFFER_TOO_SMALL	The buffer supplied is too small.	
+604	ERROR_WRONG_INFO_SPECIFIED	The port information specified is incorrect.	
+605	ERROR_CANNOT_SET_PORT_INFO	The port information specified cannot be set.	Note  Deprecated in Windows Vista and later versions of Windows.
+606	ERROR_PORT_NOT_CONNECTED	The port specified is not connected.	
+607	ERROR_EVENT_INVALID	An event that is not valid was detected.	Note  Deprecated in Windows Vista and later versions of Windows.
+608	ERROR_DEVICE_DOES_NOT_EXIST	The specified device does not exist.	
+609	ERROR_DEVICETYPE_DOES_NOT_EXIST	The specified device type does not exist.	
+610	ERROR_BUFFER_INVALID	The buffer supplied is not valid.	
+611	ERROR_ROUTE_NOT_AVAILABLE	A route was specified that is not available.	Note  Deprecated in Windows Vista and later versions of Windows.
+612	ERROR_ROUTE_NOT_ALLOCATED	The specified route is not allocated.	
+613	ERRERROR_INVALID_COMPRESSION_SPECIFIED	The specified compression is not valid.	Note  Deprecated in Windows Vista and later versions of Windows.
+614	ERROR_OUT_OF_BUFFERS	There were insufficient buffers available.	
+615	ERROR_PORT_NOT_FOUND	The specified port was not found.	
+616	ERROR_ASYNC_REQUEST_PENDING	An asynchronous request is pending.	
+617	ERROR_ALREADY_DISCONNECTING	The specified port or device is already disconnecting.	
+618	ERROR_PORT_NOT_OPEN	The specified port is not open.	
+619	ERROR_PORT_DISCONNECTED	The specified port is disconnected.	
+620	ERROR_NO_ENDPOINTS	No endpoints could be determined.	Note  Deprecated in Windows Vista and later versions of Windows.
+621	ERROR_CANNOT_OPEN_PHONEBOOK	Cannot open the specified phone book file.	
+622	ERROR_CANNOT_LOAD_PHONEBOOK	Cannot load the specified phone book file.	
+623	ERROR_CANNOT_FIND_PHONEBOOK_ENTRY	Cannot find the specified phone book entry.	
+624	ERROR_CANNOT_WRITE_PHONEBOOK	Cannot write to the specified phone book file.	
+625	ERROR_CORRUPT_PHONEBOOK	Information found in the specified phone book is not valid.	
+626	ERROR_CANNOT_LOAD_STRING	A string could not be loaded.	Note  Deprecated in Windows Vista and later versions of Windows.
+627	ERROR_KEY_NOT_FOUND	Cannot find the specified key.	
+628	ERROR_DISCONNECTION	The specified port was disconnected.	
+629	ERROR_REMOTE_DISCONNECTION	The specified port was disconnected by the remote computer.	
+630	ERROR_HARDWARE_FAILURE	The specified port was disconnected due to hardware failure.	
+631	ERROR_USER_DISCONNECTION	The specified port was disconnected by the user.	
+632	ERROR_INVALID_SIZE	Incorrect structure size.	
+633	ERROR_PORT_NOT_AVAILABLE	The specified port is already in use or is not configured for remote access dial-out.	
+634	ERROR_CANNOT_PROJECT_CLIENT	Your computer could not be registered on the remote network.	Note  Deprecated in Windows Vista and later versions of Windows.
+635	ERROR_UNKNOWN	An unknown error has occurred.	
+636	ERROR_WRONG_DEVICE_ATTACHED	The wrong device is attached to the specified port.	
+637	ERROR_BAD_STRING	A string was detected that could not be converted.	Note  Deprecated in Windows Vista and later versions of Windows.
+638	ERROR_REQUEST_TIMEOUT	The request has timed out.	
+639	ERROR_CANNOT_GET_LANA	No asynchronous net is available.	Note  Deprecated in Windows Vista and later versions of Windows.
+640	ERROR_NETBIOS_ERROR	An error has occurred involving NetBIOS.	Note  Deprecated in Windows Vista and later versions of Windows.
+641	ERROR_SERVER_OUT_OF_RESOURCES	he server cannot allocate NetBIOS resources needed to support the client.	Note  Deprecated in Windows Vista and later versions of Windows.
+642	ERROR_NAME_EXISTS_ON_NET	One of your computer's NetBIOS names is already registered on the remote network.	Note  Deprecated in Windows Vista and later versions of Windows.
+643	ERROR_SERVER_GENERAL_NET_FAILURE	A network adapter at the server failed.	Note  Deprecated in Windows Vista and later versions of Windows.
+644	WARNING_MSG_ALIAS_NOT_ADDED	You will not receive network message popups.	Note  Deprecated in Windows Vista and later versions of Windows.
+645	ERROR_AUTH_INTERNAL	An internal authentication error has occurred.	
+646	ERROR_RESTRICTED_LOGON_HOURS	The specified account is not permitted to log in at this time of day.	
+647	ERROR_ACCT_DISABLED	The specified account is disabled.	
+648	ERROR_PASSWD_EXPIRED	The specified password has expired.	
+649	ERROR_NO_DIALIN_PERMISSION	The specified account does not have remote access permissions.	
+650	ERROR_SERVER_NOT_RESPONDING	The remote access server is not responding.	Note  Deprecated in Windows Vista and later versions of Windows.
+651	ERROR_FROM_DEVICE	Your modem or other connection device has reported an error.	
+652	ERROR_UNRECOGNIZED_RESPONSE	An unrecognized response was returned by the device.	
+653	ERROR_MACRO_NOT_FOUND	A macro required by the device was not found in the device .INF file section.	
+654	ERROR_MACRO_NOT_DEFINED	A command or response in the device .INF file section refers to an undefined macro.	
+655	ERROR_MESSAGE_MACRO_NOT_FOUND	The <message> macro was not found in the device .INF file section.	
+656	ERROR_DEFAULTOFF_MACRO_NOT_FOUND	The <defaultoff> macro in the device .INF file section contains an undefined macro.	
+657	ERROR_FILE_COULD_NOT_BE_OPENED	The device .INF file could not be opened.	
+658	ERROR_DEVICENAME_TOO_LONG	The device name in the device .INF or media .INI file is too long.	
+659	ERROR_DEVICENAME_NOT_FOUND	The media .INI file refers to an unknown device name.	
+660	ERROR_NO_RESPONSES	The device .INF file contains no responses for the command.	
+661	ERROR_NO_COMMAND_FOUND	The device .INF file is missing a command.	
+662	ERROR_WRONG_KEY_SPECIFIED	Attempted to set a macro not listed in device .INF file section.	
+663	ERROR_UNKNOWN_DEVICE_TYPE	The media .INI file refers to an unknown device type.	
+664	ERROR_ALLOCATING_MEMORY	Cannot allocate memory.	
+665	ERROR_PORT_NOT_CONFIGURED	The port is not configured for remote access.	
+666	ERROR_DEVICE_NOT_READY	Your modem or other connection device is not functioning.	
+667	ERROR_READING_INI_FILE	Cannot read the media .INI file.	
+668	ERROR_NO_CONNECTION	The connection was dropped.	
+669	ERROR_BAD_USAGE_IN_INI_FILE	The usage parameter in the media .ini file is not valid.	
+670	ERROR_READING_SECTIONNAME	Cannot read the section name from the media .INI file.	
+671	ERROR_READING_DEVICETYPE	Cannot read the device type from the media .INI file.	
+672	ERROR_READING_DEVICENAME	Cannot read the device name from the media .INI file.	
+673	ERROR_READING_USAGE	Cannot read the usage from the media .INI file.	
+674	ERROR_READING_MAXCONNECTBPS	The system was unable to read the maximum carrier connection speed from the media .INI file.	Note  Deprecated in Windows Vista and later versions of Windows.
+675	ERROR_READING_MAXCARRIERBPS	Cannot read the usage from the media .INI file.	
+676	ERROR_LINE_BUSY	The line is busy.	
+677	ERROR_VOICE_ANSWER	A person answered instead of a modem.	
+678	ERROR_NO_ANSWER	There is no answer.	
+679	ERROR_NO_CARRIER	Cannot detect a carrier signal.	
+680	ERROR_NO_DIALTONE	There is no dial tone.	
+681	ERROR_IN_COMMAND	The modem (or other connecting device) reported a general error.	Note  Deprecated in Windows Vista and later versions of Windows.
+682	ERROR_WRITING_SECTIONNAME	There was an error in writing the section name.	
+683	ERROR_WRITING_DEVICETYPE	There was an error in writing the device type.	
+684	ERROR_WRITING_DEVICENAME	There was an error in writing the device name.	
+685	ERROR_WRITING_MAXCONNECTBPS	There was an error in writing the maximum connection speed.	
+686	ERROR_WRITING_MAXCARRIERBPS	There was an error in writing the maximum carrier speed.	
+687	ERROR_WRITING_USAGE	There was an error in writing the usage.	
+688	ERROR_WRITING_DEFAULTOFF	There was an error in writing the default-off.	
+689	ERROR_READING_DEFAULTOFF
+690	ERROR_EMPTY_INI_FILE	The media .INI file is empty.	
+691	ERROR_AUTHENTICATION_FAILURE	Access denied because the user name, password, or both is not valid on the domain.	
+692	ERROR_PORT_OR_DEVICE	A hardware failure has occurred in the port or attached device	
+693	ERROR_NOT_BINARY_MACRO	The macro is not a binary macro.	
+694	ERROR_DCB_NOT_FOUND	DCB not found.	
+695	ERROR_STATE_MACHINES_NOT_STARTED	State machines are not started.	
+696	ERROR_STATE_MACHINES_ALREADY_STARTED	State machines are already started.	
+697	ERROR_PARTIAL_RESPONSE_LOOPING	Partial response looping.	
+698	ERROR_UNKNOWN_RESPONSE_KEY	A response key name in the device .INF file is not in the expected format.	
+699	ERROR_RECV_BUF_FULL	The device response caused a buffer overflow.	
+700	ERROR_CMD_TOO_LONG	The expanded command in the device .INF file is too long.	
+701	ERROR_UNSUPPORTED_BPS	The device moved to a connection speed that is not supported by the COM driver.	
+702	ERROR_UNEXPECTED_RESPONSE	Device response received when none expected.	
+703	ERROR_INTERACTIVE_MODE	An error occurred because the interactive mode is enabled.	
+704	ERROR_BAD_CALLBACK_NUMBER	A bad callback number was specified.	
+705	ERROR_INVALID_AUTH_STATE	The specified authentication state is not valid.	
+706	ERROR_WRITING_INITBPS	An error occurred when writing the initial connection speed.	Note  Deprecated in Windows Vista and later versions of Windows.
+707	ERROR_X25_DIAGNOSTIC	An X.25 diagnostic indication was received.	
+708	ERROR_ACCT_EXPIRED	The specified account has expired.	
+709	ERROR_CHANGING_PASSWORD	An error occurred while attempting to change the password on the domain.	
+710	ERROR_OVERRUN	Serial overrun errors were detected while communicating with your modem.	
+711	ERROR_RASMAN_CANNOT_INITIALIZE	RasMan initialization failure. Check the event log.	
+712	ERROR_BIPLEX_PORT_NOT_AVAILABLE	The two-way port is initializing. Wait a few seconds and redial.	Note  Deprecated in Windows Vista and later versions of Windows.
+713	ERROR_NO_ACTIVE_ISDN_LINES	No active ISDN lines are available.	
+714	ERROR_NO_ISDN_CHANNELS_AVAILABLE	No ISDN channels are available to make the call.	Note  Deprecated in Windows Vista and later versions of Windows.
+715	ERROR_TOO_MANY_LINE_ERRORS	Too many errors occurred because of poor phone line quality.	Note  Deprecated in Windows Vista and later versions of Windows.
+716	ERROR_IP_CONFIGURATION	The remote access IP configuration is unusable.	
+717	ERROR_NO_IP_ADDRESSES	No IP addresses are available in the static pool of remote access IP addresses.	
+718	ERROR_PPP_TIMEOUT	A PPP timeout occurred.	
+719	ERROR_PPP_REMOTE_TERMINATED	The connection was terminated by the remote computer.	Note  Deprecated in Windows Vista and later versions of Windows.
+720	ERROR_PPP_NO_PROTOCOLS_CONFIGURED	No PPP control protocols are configured.	
+721	ERROR_PPP_NO_RESPONSE	The remote PPP peer is not responding.	
+722	ERROR_PPP_INVALID_PACKET	The PPP packet is not valid.	
+723	ERROR_PHONE_NUMBER_TOO_LONG	The phone number, including the prefix and suffix, is too long.	
+724	ERROR_IPXCP_NO_DIALOUT_CONFIGURED	The IPX protocol cannot dial out on the modem (or other connecting device) because this computer is not configured for dialing out (it is an IPX router).	Note  Deprecated in Windows Vista and later versions of Windows.
+725	ERROR_IPXCP_NO_DIALIN_CONFIGURED	The IPX protocol cannot dial in on the modem (or other connecting device) because this computer is not configured for dialing in (the IPX router is not installed).	Note  Deprecated in Windows Vista and later versions of Windows.
+726	ERROR_IPXCP_DIALOUT_ALREADY_ACTIVE	The IPX protocol cannot be used for dial-out on more than one port at a time.	
+727	ERROR_ACCESSING_TCPCFGDLL	Cannot access TCPCFG.DLL.	Note  Deprecated in Windows Vista and later versions of Windows.
+728	ERROR_NO_IP_RAS_ADAPTER	Cannot find an IP adapter bound to remote access.	
+729	ERROR_SLIP_REQUIRES_IP	SLIP cannot be used unless the IP protocol is installed.	
+730	ERROR_PROJECTION_NOT_COMPLETE	Computer registration is not complete.	Note  Deprecated in Windows Vista and later versions of Windows.
+731	ERROR_PROTOCOL_NOT_CONFIGURED	The specified protocol is not configured.	
+732	ERROR_PPP_NOT_CONVERGING	The PPP negotiation is not converging.	
+733	ERROR_PPP_CP_REJECTED	the PPP control protocol for the specified network protocol is not available on the server.	
+734	ERROR_PPP_LCP_TERMINATED	The PPP link control protocol was terminated.	
+735	ERROR_PPP_REQUIRED_ADDRESS_REJECTED	The requested address was rejected by the server.	
+736	ERROR_PPP_NCP_TERMINATED	The remote computer terminated the control protocol.	
+737	ERROR_PPP_LOOPBACK_DETECTED	Loopback detected.	
+738	ERROR_PPP_NO_ADDRESS_ASSIGNED	The server did not assign an address.	
+739	ERROR_CANNOT_USE_LOGON_CREDENTIALS	The remote server cannot use the Windows NT encrypted password.	
+740	ERROR_TAPI_CONFIGURATION	The TAPI devices configured for remote access failed to initialize or were not installed correctly.	
+741	ERROR_NO_LOCAL_ENCRYPTION	The local computer does not support encryption.	
+742	ERROR_NO_REMOTE_ENCRYPTION	The remote server does not support encryption.	
+743	ERROR_REMOTE_REQUIRES_ENCRYPTION	The remote computer requires data encryption.	Note  Deprecated in Windows Vista and later versions of Windows.
+744	ERROR_IPXCP_NET_NUMBER_CONFLICT	The system cannot use the IPX network number assigned by the remote computer. Additional information is provided in the event log.	Note  Deprecated in Windows Vista and later versions of Windows.
+745	ERROR_INVALID_SMM	The Session Management Module (SMM) is not valid.	Note  Deprecated in Windows Vista and later versions of Windows.
+746	ERROR_SMM_UNINITIALIZED	The SMM is uninitialized.	Note  Deprecated in Windows Vista and later versions of Windows.
+747	ERROR_NO_MAC_FOR_PORT	No MAC for port.	Note  Deprecated in Windows Vista and later versions of Windows.
+748	ERROR_SMM_TIMEOUT	The SMM timed out.	Note  Deprecated in Windows Vista and later versions of Windows.
+749	ERROR_BAD_PHONE_NUMBER	A bad phone number was specified.	
+750	ERROR_WRONG_MODULE	The wrong SMM was specified.	Note  Deprecated in Windows Vista and later versions of Windows.
+751	ERROR_INVALID_CALLBACK_NUMBER	The callback number contains a character that is not valid. Only the following 18 characters are allowed: 0 to 9, T, P, W, (, ), -, @, and space.	Note  Deprecated in Windows Vista and later versions of Windows.
+752	ERROR_SCRIPT_SYNTAX	A syntax error was encountered while processing a script.	
+753	ERROR_HANGUP_FAILED	The connection could not be disconnected because it was created by the multi-protocol router.	
+754	ERROR_BUNDLE_NOT_FOUND	The system could not find the multi-link bundle.	
+755	ERROR_CANNOT_DO_CUSTOMDIAL	The system cannot perform automated dial because this connection has a custom dialer specified.	
+756	ERROR_DIAL_ALREADY_IN_PROGRESS	This connection is already being dialed.	
+757	ERROR_RASAUTO_CANNOT_INITIALIZE	RAS could not be started automatically. Additional information is provided in the event log.	
+758	ERROR_CONNECTION_ALREADY_SHARED	Internet Connection Sharing (ICS) is already enabled on the connection.	Note  Deprecated in Windows Vista and later versions of Windows.
+759	ERROR_SHARING_CHANGE_FAILED	An error occurred while the existing Internet Connection Sharing settings were being changed.	Note  Deprecated in Windows Vista and later versions of Windows.
+760	ERROR_SHARING_ROUTER_INSTALL	An error occurred while routing capabilities were being enabled.	Note  Deprecated in Windows Vista and later versions of Windows.
+761	ERROR_SHARE_CONNECTION_FAILED	An error occurred while Internet Connection Sharing was being enabled for the connection.	Note  Deprecated in Windows Vista and later versions of Windows.
+762	7ERROR_SHARING_PRIVATE_INSTALL64	An error occurred while the local network was being configured for sharing.	Note  Deprecated in Windows Vista and later versions of Windows.
+763	ERROR_CANNOT_SHARE_CONNECTION	Internet Connection Sharing cannot be enabled. There is more than one LAN connection other than the connection to be shared.	Note  Deprecated in Windows Vista and later versions of Windows.
+764	ERROR_NO_SMART_CARD_READER	No smart card reader is installed.	
+765	ERROR_SHARING_ADDRESS_EXISTS	Internet Connection Sharing cannot be enabled. A LAN connection is already configured with the IP address that is required for automatic IP addressing.	
+766	ERROR_NO_CERTIFICATE	A certificate could not be found. Connections that use the L2TP protocol over IPSec require the installation of a machine certificate, also known as a computer certificate.	
+767	ERROR_SHARING_MULTIPLE_ADDRESSES	Internet Connection Sharing cannot be enabled. The LAN connection selected as the private network has more than one IP address configured. Please reconfigure the LAN connection with a single IP address before enabling Internet Connection Sharing.	
+768	ERROR_FAILED_TO_ENCRYPT	The connection attempt failed because of failure to encrypt data.	
+769	ERROR_BAD_ADDRESS_SPECIFIED	The specified destination is not reachable.	
+770	ERROR_CONNECTION_REJECT	The remote computer rejected the connection attempt.	
+771	ERROR_CONGESTION	The connection attempt failed because the network is busy.	
+772	ERROR_INCOMPATIBLE	The remote computer's network hardware is incompatible with the type of call requested.	
+773	ERROR_NUMBERCHANGED	The connection attempt failed because the destination number has changed.	
+774	ERROR_TEMPFAILURE	The connection attempt failed because of a temporary failure. Try connecting again.	
+775	ERROR_BLOCKED	The call was blocked by the remote computer.	
+776	ERROR_DONOTDISTURB	The call could not be connected because the remote computer has invoked the Do Not Disturb feature.	
+777	ERROR_OUTOFORDER	The connection attempt failed because the modem or other connection device on the remote computer is out of order.	
+778	ERROR_UNABLE_TO_AUTHENTICATE_SERVER	It was not possible to verify the identity of the server.	
+779	ERROR_SMART_CARD_REQUIRED	To dial out using this connection you must use a smart card.	Note  Deprecated in Windows Vista and later versions of Windows.
+780	ERROR_INVALID_FUNCTION_FOR_ENTRY	An attempted function is not valid for this connection.	
+781	ERROR_CERT_FOR_ENCRYPTION_NOT_FOUND	The encryption attempt failed because no valid certificate was found.	Note  Deprecated in Windows Vista and later versions of Windows.
+782	ERROR_SHARING_RRAS_CONFLICT	Connection Sharing (NAT) is currently installed as a routing protocol, and must be removed before enabling Internet Connection Sharing.	
+783	ERROR_SHARING_NO_PRIVATE_LAN	Internet Connection Sharing cannot be enabled. The LAN connection selected as the private network is either not present, or is disconnected from the network. Please ensure that the LAN adapter is connected before enabling Internet Connection Sharing.	
+784	ERROR_NO_DIFF_USER_AT_LOGON	You cannot dial using this connection at login time because it is configured to use a user name different than the one on the smart card. If you want to use this connection at login time, you must configure it to use the user name on the smart card.	
+785	ERROR_NO_REG_CERT_AT_LOGON	You cannot dial using this connection at login time because it is not configured to use a smart card. If you want to use it at login time, you must edit the properties of this connection so that it uses a smart card.	
+786	ERROR_OAKLEY_NO_CERT	The L2TP connection attempt failed because there is no valid machine certificate on your computer for security authentication.	
+787	ERROR_OAKLEY_AUTH_FAIL	The L2TP connection attempt failed because the security layer could not authenticate the remote computer.	
+788	ERROR_OAKLEY_ATTRIB_FAIL	The L2TP connection attempt failed because the security layer could not negotiate compatible parameters with the remote computer.	
+789	ERROR_OAKLEY_GENERAL_PROCESSING	The L2TP connection attempt failed because the security layer encountered a processing error during initial negotiations with the remote computer.	
+790	ERROR_OAKLEY_NO_PEER_CERT	The L2TP connection attempt failed because certificate validation on the remote computer failed.	
+791	ERROR_OAKLEY_NO_POLICY	The L2TP connection attempt failed because security policy for the connection was not found.	
+792	ERROR_OAKLEY_TIMED_OUT	The L2TP connection attempt failed because security negotiation timed out.	
+793	ERROR_OAKLEY_ERROR	The L2TP connection attempt failed because an error occurred while negotiating security.	
+794	ERROR_UNKNOWN_FRAMED_PROTOCOL	The Framed Protocol RADIUS attribute for this user is not PPP.	
+795	ERROR_WRONG_TUNNEL_TYPE	The Tunnel Type RADIUS attribute for this user is not correct.	
+796	ERROR_UNKNOWN_SERVICE_TYPE	The Service Type RADIUS attribute for this user is neither Framed nor Callback Framed.	
+797	ERROR_CONNECTING_DEVICE_NOT_FOUND	A connection to the remote computer could not be established because the modem was not found or was busy.	
+798	ERROR_NO_EAPTLS_CERTIFICATE	A certificate could not be found that can be used with the Extensible Authentication Protocol (EAP).	
+799	ERROR_SHARING_HOST_ADDRESS_CONFLICT	Internet Connection Sharing (ICS) cannot be enabled due to an IP address conflict on the network. ICS requires the host be configured to use 192.168.0.1. Ensure that no other client on the network is configured to use 192.168.0.1.	Note  Supported in Windows XP and later versions of Windows.	Note  Windows 7 and later: The host must be configured to use 192.168.137.1
+800	ERROR_AUTOMATIC_VPN_FAILED	Unable to establish the VPN connection. The VPN server may be unreachable, or security parameters may not be configured properly for this connection.	Note  Supported in Windows XP and later versions of Windows.
+801	ERROR_VALIDATING_SERVER_CERT	This connection is configured to validate the identity of the access server, but Windows cannot verify the digital certificate sent by the server.	Note  Supported in Windows XP and later versions of Windows.
+802	ERROR_READING_SCARD	The card supplied was not recognized. Please check that the card is inserted correctly, and fits securely.	Note  Supported in Windows XP with SP1 and later versions of Windows.
+803	ERROR_INVALID_PEAP_COOKIE_CONFIG	The PEAP configuration stored in the session cookie does not match the current session configuration.	Note  Supported in Windows XP with SP1 and later versions of Windows.
+804	ERROR_INVALID_PEAP_COOKIE_USER	The PEAP identity stored in the session cookie does not match the current identity.	Note  Supported in Windows XP with SP1 and later versions of Windows.
+805	ERROR_INVALID_MSCHAPV2_CONFIG	You cannot dial using this connection at login time because it is configured to use the currently-logged-in user's credentials.	Note  Supported in Windows XP with SP1 and later versions of Windows.
+806	ERROR_VPN_GRE_BLOCKED	A connection between your computer and the VPN server has been started, but the VPN connection cannot be completed. The most common cause for this is that at least one Internet device (for example, a firewall or a router) between your computer and the VPN server is not configured to allow Generic Routing Encapsulation (GRE) protocol packets.	Note  Supported in Windows Vista and later versions of Windows.
+807	ERROR_VPN_DISCONNECT	The network connection between your computer and the VPN server was interrupted. This can be caused by a problem in the VPN transmission and is commonly the result of internet latency or simply that your VPN server has reached capacity. Try to reconnect to the VPN server.	Note  Supported in Windows Vista and later versions of Windows.
+808	ERROR_VPN_REFUSED	The network connection between your computer and the VPN server could not be established because the remote server refused the connection. This is typically caused by a mismatch between the server's configuration and your connection settings.	Note  Supported in Windows Vista and later versions of Windows.
+809	ERROR_VPN_TIMEOUT	The network connection between your computer and the VPN server could not be established because the remote server is not responding. This could be because one of the network devices (for example, firewalls, NAT, routers) between your computer and the remote server is not configured to allow VPN connections.	Note  Supported in Windows Vista and later versions of Windows.
+810	ERROR_VPN_BAD_CERT	A network connection between your computer and the VPN server was started, but the VPN connection was not completed. This is typically caused by the use of an incorrect or expired certificate for authentication between the client and the server.	Note  Supported in Windows Vista and later versions of Windows
+811	ERROR_VPN_BAD_PSK	The network connection between your computer and the VPN server could not be established because the remote server is not responding. This is typically caused by a pre-shared key problem between the client and server. A pre-shared key is used to guarantee you are who you say you are in an IP Security (IPSec) communication cycle.	Note  Supported in Windows Vista and later versions of Windows.
+812	ERROR_SERVER_POLICY	The connection was prevented because of a policy configured on your RAS/VPN server. Specifically, the authentication method used by the server to verify your username and password may not match the authentication method configured in your connection profile.	Note  Supported in Windows Vista and later versions of Windows.
+813	ERROR_BROADBAND_ACTIVE	You have attempted to establish a second broadband connection while a previous broadband connection is already established using the same device or port.	Note  Supported in Windows Vista and later versions of Windows.
+814	ERROR_BROADBAND_NO_NIC	The underlying Ethernet connectivity required for the broadband connection was not found.	Note  Supported in Windows Vista and later versions of Windows.
+815	ERROR_BROADBAND_TIMEOUT	The broadband network connection could not be established on your computer because the remote server is not responding. This could be caused by a value that is not valid for the 'Service Name' field for this connection.	Note  Supported in Windows Vista and later versions of Windows.
+816	ERROR_FEATURE_DEPRECATED	A feature or setting you have tried to enable is no longer supported by the remote access service.	Note  Supported in Windows Vista and later versions of Windows.
+817	ERROR_CANNOT_DELETE	Cannot delete a connection while it is connected.	Note  Supported in Windows Vista and later versions of Windows.
+818	ERROR_RASQEC_RESOURCE_CREATION_FAILED	The Network Access Protection (NAP) enforcement client could not create system resources for remote access connections. Some network services or resources might not be available.	Note  Supported in Windows Vista and later versions of Windows.
+819	ERROR_RASQEC_NAPAGENT_NOT_ENABLED	The Network Access Protection Agent (NAP Agent) service has been disabled or is not installed on this computer. Some network services or resources might not be available.	Note  Supported in Windows Vista and later versions of Windows.
+820	ERROR_RASQEC_NAPAGENT_NOT_CONNECTED	The Network Access Protection (NAP) enforcement client failed to register with the Network Access Protection Agent (NAP Agent) service. Some network services or resources might not be available.	Note  Supported in Windows Vista and later versions of Windows.
+821	ERROR_RASQEC_CONN_DOESNOTEXIST	The Network Access Protection (NAP) enforcement client was unable to process the request because the remote access connection does not exist.	Note  Supported in Windows Vista and later versions of Windows.
+822	ERROR_RASQEC_TIMEOUT	The Network Access Protection (NAP) enforcement client did not respond. Some network services or resources might not be available.	Note  Supported in Windows Vista and later versions of Windows.
+823	ERROR_PEAP_CRYPTOBINDING_INVALID	The Crypto-Binding type-length-value (TLV) received is not valid.	Note  Supported in Windows Vista and later versions of Windows.
+824	ERROR_PEAP_CRYPTOBINDING_NOTRECEIVED	Crypto-Binding TLV was not received.	Note  Supported in Windows Vista and later versions of Windows.
+825	ERROR_INVALID_VPNSTRATEGY	Point-to-Point Tunneling Protocol (PPTP) is incompatible with IPv6. Change the type of virtual private network to Layer Two Tunneling Protocol (L2TP).	Note  Supported in Windows Vista and later versions of Windows.
+826	ERROR_EAPTLS_CACHE_CREDENTIALS_INVALID	EAPTLS validation of the cached credentials failed. Discard cached credentials.	Note  Supported in Windows Vista and later versions of Windows.
+827	ERROR_IPSEC_SERVICE_STOPPED	The L2TP/IPsec connection cannot be completed because the IKE and AuthIP IPSec Keying Modules service and/or the Base Filtering Engine service is not running. These services are required to establish an L2TP/IPSec connection.	Note  Supported in Windows Vista and later versions of Windows.
+828	ERROR_IDLE_TIMEOUT	The connection was terminated because of idle timeout.	Note  Supported in Windows Vista and later versions of Windows.
+829	ERROR_LINK_FAILURE	The modem (or other connecting device) was disconnected due to link failure.	Note  Supported in Windows Vista and later versions of Windows.
+830	ERROR_USER_LOGOFF	The connection was terminated because user logged off.	Note  Supported in Windows Vista and later versions of Windows.
+831	ERROR_FAST_USER_SWITCH	The connection was terminated because user switch happened.	Note  Supported in Windows Vista and later versions of Windows.
+832	ERROR_HIBERNATION	The connection was terminated because of hibernation.	Note  Supported in Windows Vista and later versions of Windows.
+833	ERROR_SYSTEM_SUSPENDED	The connection was terminated because the system got suspended.	Note  Supported in Windows Vista and later versions of Windows.
+834	ERROR_RASMAN_SERVICE_STOPPED	The connection was terminated because Remote Access Connection manager stopped.	Note  Supported in Windows Vista and later versions of Windows.
+835	ERROR_INVALID_SERVER_CERT	The L2TP connection attempt failed because the security layer could not authenticate the remote computer. This could be because one or more fields of the certificate presented by the remote server could not be validated as belonging to the target destination.	Note  Supported in Windows Vista and later versions of Windows.
+836	ERROR_NOT_NAP_CAPABLE	The machine is not NAP capable.	Note  Supported in Windows Vista and later versions of Windows.
+837	ERROR_INVALID_TUNNELID	Invalid Tunnel ID.	Note  Supported in Windows 7 and later versions of Windows.
+838	ERROR_UPDATECONNECTION_REQUEST_IN_PROCESS	Another update connection request is in progress. RAS allows only one update connection request at a time.	Note  Supported in Windows 7 and later versions of Windows.
+839	ERROR_PROTOCOL_ENGINE_DISABLED	Negotiating using configured protocol is disable. Edit connection properties and select different protocol for negotiation and try again.	Note  Supported in Windows 7 and later versions of Windows.
+840	ERROR_INTERNAL_ADDRESS_FAILURE	Internal address negotiation failed.	Note  Supported in Windows 7 and later versions of Windows.
+841	ERROR_FAILED_CP_REQUIRED	Client has to request an Internal IPv4 or IPv6 address.	Note  Supported in Windows 7 and later versions of Windows.
+842	ERROR_TS_UNACCEPTABLE	Traffic Selectors negotiation failed.	Note  Supported in Windows 7 and later versions of Windows.
+843	ERROR_MOBIKE_DISABLED	Mobility is disabled for this connection.	Note  Supported in Windows 7 and later versions of Windows.
+844	ERROR_CANNOT_INITIATE_MOBIKE_UPDATE	The VPN Connection is still connecting or re-authenticating because of Quarantine state change. Initiate mobile update only when connection state is 'Connected'.	Note  Supported in Windows 7 and later versions of Windows.
+845	ERROR_PEAP_SERVER_REJECTED_CLIENT_TLV	Server rejected client authentication, due to unexpected TLV or value mismatch for a TLV.	Note  Supported in Windows 7 and later versions of Windows.
+846	ERROR_INVALID_PREFERENCES	Either VPN destination preference is not selected by the user or it is no longer valid.	Note  Supported in Windows 7 and later versions of Windows.
+847	ERROR_EAPTLS_SCARD_CACHE_CREDENTIALS_INVALID	Cached smart card credential is invalid.	Note  Supported in Windows 7 and later versions of Windows.
+900	ERROR_ROUTER_STOPPED	The router is not running.	
+901	ERROR_ALREADY_CONNECTED	The interface is already connected.	
+902	ERROR_UNKNOWN_PROTOCOL_ID	The specified protocol identifier is not known to the router.	
+903	ERROR_DDM_NOT_RUNNING	The Demand-dial Interface Manager (DDM) is not running.	
+904	ERROR_INTERFACE_ALREADY_EXISTS	An interface with this name is already registered with the router.	
+905	ERROR_NO_SUCH_INTERFACE	An interface with this name is not registered with the router.	
+906	ERROR_INTERFACE_NOT_CONNECTED	The interface is not connected.	
+907	ERROR_PROTOCOL_STOP_PENDING	The specified protocol is stopping.	
+908	ERROR_INTERFACE_CONNECTED	The interface is connected and hence cannot be deleted.	
+909	ERROR_NO_INTERFACE_CREDENTIALS_SET	The interface credentials have not been set.	
+910	ERROR_ALREADY_CONNECTING	This interface is already in the process of connecting.	
+911	ERROR_UPDATE_IN_PROGRESS	An update of routing information on this interface is already in progress.	
+912	ERROR_INTERFACE_CONFIGURATION	The interface configration is not valid. There is already another interface that is connected to the same interface on the remote router.	
+913	ERROR_NOT_CLIENT_PORT	A Remote Access Client attempted to connect over a port that was reserved for routers only.	
+914	ERROR_NOT_ROUTER_PORT	A Demand Dial Router attempted to connect over a port that was reserved for Remote Access Clients only.	
+915	ERROR_CLIENT_INTERFACE_ALREADY_EXISTS	The client interface with this name already exists and is currently connected.	
+916	ERROR_INTERFACE_DISABLED	The interface is in a disabled state.	
+917	ERROR_AUTH_PROTOCOL_REJECTED	The authentication protocol was rejected by the remote peer.	
+918	ERROR_NO_AUTH_PROTOCOL_AVAILABLE	There are no authentication protocols available for use.	
+919	ERROR_PEER_REFUSED_AUTH	The connection could not be established because the authentication protocol used by the RAS/VPN server to verify your username and password could not be matched with the settings in your connection profile.	
+920	ERROR_REMOTE_NO_DIALIN_PERMISSION	The remote account does not have Remote Access permission.	
+921	ERROR_REMOTE_PASSWD_EXPIRED	The remote account has expired.	
+922	ERROR_REMOTE_ACCT_DISABLED	The remote account is disabled.	
+923	ERROR_REMOTE_RESTRICTED_LOGON_HOURS	The remote account is not permitted to logon at this time of day.	
+924	ERROR_REMOTE_AUTHENTICATION_FAILURE	Access was denied to the remote peer because the user name, password, or both is not valid on the domain.	
+925	ERROR_INTERFACE_HAS_NO_DEVICES	There are no routing enabled ports available for use by this demand dial interface.	
+926	ERROR_IDLE_DISCONNECTED	The port has been disconnected due to inactivity.	
+927	ERROR_INTERFACE_UNREACHABLE	The interface is not reachable at this time.	
+928	ERROR_SERVICE_IS_PAUSED	The Demand Dial service is in a paused state.	
+929	ERROR_INTERFACE_DISCONNECTED	The interface has been disconnected by the administrator.	
+930	ERROR_AUTH_SERVER_TIMEOUT	The authentication server did not respond to authentication requests in a timely fashion.	
+931	ERROR_PORT_LIMIT_REACHED	The maximum number of ports allowed for use in the multi-linked connection has been reached.	
+932	ERROR_PPP_SESSION_TIMEOUT	The connection time limit for the user has been reached.	
+933	ERROR_MAX_LAN_INTERFACE_LIMIT	The maximum limit on the number of LAN interfaces supported has been reached.	
+934	ERROR_MAX_WAN_INTERFACE_LIMIT	The maximum limit on the number of Demand Dial interfaces supported has been reached.	
+935	ERROR_MAX_CLIENT_INTERFACE_LIMIT	The maximum limit on the number of Remote Access Clients supported has been reached.	
+936	ERROR_BAP_DISCONNECTED	The port has been disconnected due to the Bandwidth Allocation Protocol (BAP) policy.	
+937	ERROR_USER_LIMIT	Because another connection of your type is in use, the incoming connection cannot accept your connection request.	
+938	ERROR_NO_RADIUS_SERVERS	No RADIUS servers were located on the network.	
+939	ERROR_INVALID_RADIUS_RESPONSE	The response received from the RADIUS authentication server was not valid. Make sure that the case sensitive secret password for the RADIUS server is set correctly.	
+940	ERROR_DIALIN_HOURS_RESTRICTION	You do not have permission to connect at this time.	
+941	ERROR_ALLOWED_PORT_TYPE_RESTRICTION	You do not have permission to connect using the current device type.	
+942	ERROR_AUTH_PROTOCOL_RESTRICTION	The connection could not be established because the authentication method used by your connection profile is not permitted for use by an access policy configured on the RAS/VPN server. Specifically, this could be due to configuration differences between the authentication method selected on the RAS/VPN server and the access policy configured for it.	
+943	ERROR_BAP_REQUIRED	BAP is required for this user.	
+944	ERROR_DIALOUT_HOURS_RESTRICTION	The interface is not allowed to connect at this time.	
+945	ERROR_ROUTER_CONFIG_INCOMPATIBLE	The saved router configuration is incompatible with the current router.	
+946	WARNING_NO_MD5_MIGRATION	Remote Access has detected older format user accounts that will not be migrated automatically.	
+948	ERROR_PROTOCOL_ALREADY_INSTALLED	The transport is already installed with the router.	
+949	ERROR_INVALID_SIGNATURE_LENGTH	The signature length received in a packet from RADIUS server is not valid.	Note  Supported in Windows XP and later versions of Windows.
+950	ERROR_INVALID_SIGNATURE	The signature received in a packet from RADIUS server is not valid.	Note  Supported in Windows XP and later versions of Windows.
+951	ERROR_NO_SIGNATURE	Did not receive signature along with EAPMessage from RADIUS server.	Note  Supported in Windows XP and later versions of Windows.
+952	ERROR_INVALID_PACKET_LENGTH_OR_ID	The length or Id received in a packet from RADIUS server is not valid.	Note  Supported in Windows XP and later versions of Windows.
+953	ERROR_INVALID_ATTRIBUTE_LENGTH	The length received in a packet with attribute from RADIUS server is not valid.	Note  Supported in Windows XP and later versions of Windows.
+954	ERROR_INVALID_PACKET	The packet received from RADIUS server in not valid.	Note  Supported in Windows XP and later versions of Windows.
+955	ERROR_AUTHENTICATOR_MISMATCH	Authenticator does not match in packet from RADIUS server.	Note  Supported in Windows XP and later versions of Windows.
+956	ERROR_REMOTEACCESS_NOT_CONFIGURED	Routing and Remote access server is either not configured or not running.	Note  Supported in Windows 7 and later versions of Windows.

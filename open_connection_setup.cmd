@@ -1,0 +1,4 @@
+@echo off
+::[HKEY_CLASSES_ROOT\CLSID\{7071ECE0-663B-4bc1-A1FA-B97F3B917C55}]
+::Connect To Network Task Class
+xwizard RunWizard {7071ECE0-663B-4bc1-A1FA-B97F3B917C55}
